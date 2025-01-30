@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/8842284731.js" crossorigin="anonymous"></script>
   <title>Hng stage zero</title>
 </head>
 <body>
@@ -13,26 +14,42 @@
   <main>
     <div class="card">
       <div class="img-cont">
-        <img data-testid="profilePicture" src="./frontend-dev.jpeg" alt="Obasi Ikechukwu" height="168px" width="300px">
+        <img data-testid="profilePicture" src="./dev_iyke.jpg" alt="Obasi Ikechukwu" height="168px" width="300px">
       </div>
       <div class="info">
-        <h2 data-testid="fullName">Obasi Ikechukwu</h2>
-        <p data-testid="jobTitle">Frontend Developer</p>
-        <p data-testid="shortBio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, earum.</p>
-        <p data-testid="currentLocation">Lagos, Nigeria</p>
-        <p data-testid="emailAddress">obasiikechukwu761@gmail.com</p>
-        <div data-testid="socialLinks">
-          <a href="https://twitter.com/obasiikechukwu" target="_blank">
-            <img src="./twitter-icon.png" alt="Twitter Icon" height="32px" width="32px">
-          </a>
-          <a href="https://www.linkedin.com/in/obasi-ikechukwu/" target="_blank">
-            <img src="./linkedin-icon.png" alt="LinkedIn Icon" height="32px" width="32px">
-          </a>
-          <a href="https://www.github.com/obasi_ikechukwu/" target="_blank">
-            <img src="./github-icon.png" alt="Github Icon" height="32px" width="32px">
-          </a>
+        <h2 data-testid="fullName">Obasi Ikechukwu Thompson</h2>
+        <div id="details">
+          <div>
+            <p id="role">
+              <i class="fa-solid fa-briefcase"></i>
+              <span data-testid="jobTitle">Frontend Developer</span>
+              
+            </p>
+            <p id="bio">
+              <i class="fa-solid fa-user"></i>
+              <span data-testid="shortBio">Avid Frontend developer with a great eye for details and an outstanding zeal for growth...</span>
+            </p>
+          </div>
+          <p id="location">
+            <i class="fa-solid fa-location-dot"></i> 
+            <span data-testid="currentLocation">Lagos, Nigeria</span></p>
+          <p id="email">
+            <i class="fa-solid fa-envelope"></i>
+            <a data-testid="emailAddress" href="mailto:obasiikechukwu761@gmail.com">obasiikechukwu761@gmail.com</a>
+          </p>
+          <div data-testid="socialLinks" id="links">
+            <a href="https://twitter.com/thommy_pro" target="_blank">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/obasi-ikechukwu" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.github.com/dev-iyke" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <p>Current Time: <span data-testid="currentTimeUTC" id="utc-time"></span> (UTC)</p>
         </div>
-        <p>Current Time: <span data-testid="currentTimeUTC" id="utc-time"></span></p>
       </div>
 
     </div>
